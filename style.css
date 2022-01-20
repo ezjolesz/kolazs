@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Rubik+Beastly&display=swap');
+
+h1{
+  font-family: 'Island Moments', cursive;
+  font-size: 80px;
+  color: rgb(38, 25, 51);
+}
+
+body{
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+button{
+    border-radius: 25px;
+    background-color: rgb(20, 32, 32);
+}
+a{
+  color: rgb(20, 36, 36);
+  text-decoration: none;
+}
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #302a2a;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidebar a.active {
+  font-family: 'Rubik Beastly', cursive;
+  font-size: 30px;
+  background-color: #201942;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+  }
+
+  .sidebar a {
+      float: left;
+  }
+
+  div.content {
+      margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+      text-align: center;
+      float: none;
+  }
+}
