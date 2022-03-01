@@ -20,7 +20,7 @@
 
     <form name="Jelentkezés Politikus képzöre">
         <h1> Jelentkezés Politikus képzöre</h1>
-        <h2>Ezel a tesztel meglátjuk hogy alakamlse a kiképésre.</h2>
+        <h2>Ezel a tesztel meglátjuk hogy alakamls-e a kiképzésre.</h2>
         <fieldset>
             <legend> Tanulo adatai:</legend>
             <p><label>Neve: <input type="text" name="Nev">
@@ -28,8 +28,9 @@
                 <p><label>Telefon: <input type="tel" name="telefon" size="15"></label></p>    
                 <p><label>Email <input type='email'></label></p>
         </fieldset>
+
         <fieldset>
-            <legend>Mi a neme?</legend>
+            <legend>Mi a nemed?</legend>
             <input type='radio' name='gender'> Férfi
             <input type='radio' name='gender'> Mosogép
         </fieldset>
@@ -37,27 +38,28 @@
 
         <fieldset>
 
-            <legend> Menyire gátlástalan?</legend>
+            <legend> Menyire vagy gátlástalan?</legend>
             <p><label><input type="radio" name="meret" value="nem vagyok az">nem vagyok az</label></p>
             <p><label><input type="radio" name="meret" value="egy kicsit az vagyok">egy kicsit az vagyok</label></p>
             <p><label><input type="radio" name="meret" value="elégé az vagyok">elégé az vagyok</label></p>
             <p><label><input type="radio" name="meret" value="igen">igen</label></p>
 
         </fieldset>
+
         <fieldset>
 
             <legend> Jelöjebe az őnre legjelmezőbbeket </legend>
             <p><label><input type="checkbox" name="feltet1" value="sonka">Szeretek lopni</label></p>
             <p><label><input type="checkbox" name="feltet2" value="sajt">Szeretek hazudni</label></p>
-            <p><label><input type="checkbox" name="feltet3" value="gomba">A manuplácio a szakmám</label></p>
+            <p><label><input type="checkbox" name="feltet3" value="gomba">A manipulácio a szakmám</label></p>
             <p><label><input type="checkbox" name="feltet1" value="sonka">Szeretek a pénzben uszni</label></p>
-            <p><label><input type="checkbox" name="feltet2" value="sajt">Szertek másoknak segiteni</label></p>
-            <p><label><input type="checkbox" name="feltet3" value="gomba">lelkiismeret furdalásom szokot lenni ha hazudok </label></p>
+            <p><label><input type="checkbox" name="feltet2" value="sajt">Szeretek másoknak segiteni</label></p>
+            <p><label><input type="checkbox" name="feltet3" value="gomba">lelkiismeret furdalásom szokot lenni ha hazudok</label></p>
             
         </fieldset>
         
         <fieldset>
-            <legend> Egy 0-10-ig terjedő skálán menyire érdekli az emberek véleménye?</legend>
+            <legend> Egy 0-10-ig terjedő skálán menyire érdekel az emberek véleménye?</legend>
             <input type="range" list="tickmarks">
            <datalist id="tickmarks">
                 <option value="0"></option>
@@ -76,14 +78,14 @@
 
         <fieldset>
 
-            <legend>Hol akkor kokaint fogyazstani?</legend>
+            <legend>Hol akkor kokaint fogyasztani?</legend>
            <p><select title='Válassz úticélt!'></p>
                <p><option disabled=disable selected>---Válassz!--- </option></p>
             
                 <optgroup label='Parlament'>
-                    <option>Leghát sorkban</option>
-                    <option>Közső sorkban</option>
-                    <option>Legelső sorokban</option>
+                    <option>Leghátso sorában</option>
+                    <option>Közsős soában</option>
+                    <option>Legelső sorában</option>
                 </optgroup>
             
                 <optgroup label='yacht'>
@@ -97,17 +99,20 @@
                 </optgroup>
 
         </fieldset>
+
         <fieldset>
 
-        <legend>Mi a kedvenc színe? </legend>
-            <input type='color'>
-            <small> Csak 1 jó szín van! </small>
+            <legend>Mi a kedvenc színe? </legend>
+                <input type='color'>
+                <small> Csak 1 jó szín van! </small>
 
         </fieldset>
+
         <fieldset>
             <legend>Miért szeretne Politikus lenni?</legend>
             <p><label>Fogalmaza meg 1-2 mondatban: <textarea name="egyeb"></textarea></label></p>
         </fieldset>
+
         <fieldset>
             <legend>Mitkel mondnai amikor valaki feltesz egy komoly kérédst?</legend>
         <p> <input list='valszok'></p>
