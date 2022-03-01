@@ -5,6 +5,10 @@ fieldset {
   width: 800px;
  }
 
+input[type="range"] {
+  width:400px;
+}
+
 
 input#thing1[type=checkbox] + label
 {
