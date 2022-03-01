@@ -10,14 +10,7 @@ input[type="range"] {
 }
 
 
-input#thing1[type=checkbox] + label
-{
-    background-image: url("http://lorempixel.com/50/50/");
-    height: 50px;
-    width: 50px;
-    display:inline-block;
-    padding: 0 0 0 0px;
-}
+
 
 h1{
   font-family: 'Island Moments', cursive;
