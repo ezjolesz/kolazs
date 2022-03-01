@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Rubik+Beastly&display=swap');
 
+
+fieldset {
+  width: 400px;
+ }
+
+
+input#thing1[type=checkbox] + label
+{
+    background-image: url("http://lorempixel.com/50/50/");
+    height: 50px;
+    width: 50px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+}
+
 h1{
   font-family: 'Island Moments', cursive;
   font-size: 80px;
