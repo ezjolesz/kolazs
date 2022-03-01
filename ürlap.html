@@ -46,7 +46,7 @@
         </fieldset>
         <fieldset>
 
-            <legend> Jelöjebe az őnre legjelmezzőbbeket </legend>
+            <legend> Jelöjebe az őnre legjelmezőbbeket </legend>
             <p><label><input type="checkbox" name="feltet1" value="sonka">Szeretek lopni</label></p>
             <p><label><input type="checkbox" name="feltet2" value="sajt">Szeretek hazudni</label></p>
             <p><label><input type="checkbox" name="feltet3" value="gomba">A manuplácio a szakmám</label></p>
@@ -58,8 +58,8 @@
         
         <fieldset>
             <legend> Egy 0-10-ig terjedő skálán menyire érdekli az emberek véleménye?</legend>
-            <p></p><input type="range" list="tickmarks"></p>
-            <p><datalist id="tickmarks"></p>
+            <input type="range" list="tickmarks">
+           <datalist id="tickmarks">
                 <option value="0"></option>
                 <option value="10"></option>
                 <option value="20"></option>
@@ -80,7 +80,7 @@
            <p><select title='Válassz úticélt!'></p>
                <p><option disabled=disable selected>---Válassz!--- </option></p>
             
-            <p><optgroup label='Parlament'></p>
+                <optgroup label='Parlament'>
                     <option>Leghát sorkban</option>
                     <option>Közső sorkban</option>
                     <option>Legelső sorokban</option>
@@ -99,7 +99,7 @@
         </fieldset>
         <fieldset>
 
-            <legend>Mi a kedvenc színe? </legend>
+        <legend>Mi a kedvenc színe? </legend>
             <input type='color'>
             <small> Csak 1 jó szín van! </small>
 
@@ -111,12 +111,12 @@
         <fieldset>
             <legend>Mitkel mondnai amikor valaki feltesz egy komoly kérédst?</legend>
         <p> <input list='valszok'></p>
-    <p> <datalist id='valszok'></p>
+        <p><datalist id='valszok'>
                 <option value='Bolodg karácsonyt'>
                 <option value='Elterlni a szót a kérdező édesanyára'>
                 <option value='Komoylan és öszintén válszoln'>
                 <option value='Azt mondani hogy nem emlékszem/nem tudom'>
-        </datalist>
+        </datalist></p>
         </fieldset>
 
     </form>
@@ -128,5 +128,5 @@
         </p> 
     </div>
 
-</body> 
+</body>
 </html>
