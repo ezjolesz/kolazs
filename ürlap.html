@@ -25,7 +25,7 @@
             <p><label>Neve: <input type="text" name="Nev">
                 <small> Tipp: Éles helyzetben SOHA ne agyon meg igazi nevet! Merestleg mikkor lebukik , könnyebb tud elszökni mexicoba </small></label></p>
                 <p><label>Telefon: <input type="tel" name="telefon" size="15"></label></p>    
-
+                <p><label>Email <input type='email'></label></p>
         </fieldset>
         <fieldset>
 
@@ -46,23 +46,51 @@
             <p><label><input type="checkbox" name="feltet2" value="sajt">Szertek másoknak segiteni</label></p>
             <p><label><input type="checkbox" name="feltet3" value="gomba">lelkiismeret furdalás szokot lenni ha hazudok </label></p>
 
-            <legend> 1-10 skálon menyire érdekli az emeberek véleménye?</legend>
-            <p><input type='range'></p>
-
-
+            <legend> 0-10 skálon menyire érdekli az emeberek véleménye?</legend>
+            <input type="range" list="tickmarks">
+            <datalist id="tickmarks">
+                <option value="0"></option>
+                <option value="10"></option>
+                <option value="20"></option>
+                <option value="30"></option>
+                <option value="40"></option>
+                <option value="50"></option>
+                <option value="60"></option>
+                <option value="70"></option>
+                <option value="80"></option>
+                <option value="90"></option>
+                <option value="100"></option>
+            </datalist>
+            
         </fieldset>
         <fieldset>
 
-            <legend>Válaszik azt a képet amelyik legjobban tetszik önnek</legend>
-            <input type="checkbox" name='thing1' id="thing1"/><label for="thing1"></label>
+            <legend>Hol akkor kokaint fogyazstani?</legend>
+            <select title='Válassz úticélt!'>
+                <option disabled=disable selected>---Válassz!--- </option>
             
+                <optgroup label='Parlament'>
+                    <option>Leghát sorkban</option>
+                    <option>Közső sorkban</option>
+                    <option>Legelső sorokban</option>
+                </optgroup>
+            
+                <optgroup label='yacht'>
+                    <option>Adriai-tengeren</option>
+                    <option>Balatonon</option>
+                </optgroup>
+            
+                <optgroup label='Prostik...'>
+                    <option>Hátsojárol</option>
+                    <option>Melkasukrol</option>
+                </optgroup>
 
         </fieldset>
 
     </form>
 
 
- 
+
 
 
 
@@ -72,6 +100,7 @@
         <p>  
              email: <a href="https://github.com/ezjolesz">toth.kende06@gmail.com</a>  Github:   <a href="https://github.com/ezjolesz"> github.com/ezjolesz</a>
         </p> 
-        </div>
+    </div>
+
 </body>
 </html>
