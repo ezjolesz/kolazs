@@ -9,6 +9,12 @@
     <title>ürlap</title>
 </head>
 <body>
+
+    <script>
+        function show_alert() {
+  alert("A tesztet kézbesitetük");
+}
+    </script>
     <div class="sidebar">
         <a href="https://ezjolesz.github.io/kollazs/">HOME</a> 
         <a href="https://ezjolesz.github.io/kollazs/Keplink.html">KepLink</a> 
@@ -126,14 +132,14 @@
             <legend>Szerinted kik a roszabbaok a zsidok vagy a buzik?</legend>
             <p><label><input type="checkbox" name="feltet1" value="sonka">A zsidok</label></p>
             <p><label><input type="checkbox" name="feltet2" value="sajt">A buzik</label></p>
-            <p><label><input type="checkbox" name="feltet3" value="gomba">Mind kettő a gyermekemre vadászik</label></p>
+            <p><label><input type="checkbox" name="feltet3" value="gomba">Mind  kettő a gyermekemre vadászik</label></p>
             
         </fieldset>
 
 
         <fieldset>
             <legend>Végezetül</legend>
-            <input type='button' value='Feldolgozás'>
+            <input type='button' onclick="show_alert" value='Feldolgozás'>
             <input type='reset'>
             <br>
             <br>
